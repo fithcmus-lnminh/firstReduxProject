@@ -19,7 +19,7 @@ const Counter = () => {
   };
 
   const toggleCounterHandler = () => {
-    dispatch({ type: "toggle" });
+    dispatch({ type: "toggle" }); //just demo, should use useState in this component
   };
 
   return (
